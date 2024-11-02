@@ -196,12 +196,6 @@ div.variables-block {
 @media (max-width: 490px) {
   body {
     margin: auto 0.5rem;
-    overflow-y: auto;
-  }
-
-  .container {
-    scroll-snap-type: y mandatory; /* Enable scroll snapping */
-    overflow-y: auto; /* Allow vertical scrolling within the container */
   }
   .letter {
     font-size: 3rem;
