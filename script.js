@@ -50,6 +50,10 @@ gsap.to(".block-right", 2, {
   }
 });
 
+window.addEventListener('resize', () => {
+  const container = document.querySelector('.container');
+  container.style.height = `${window.innerHeight}px`;
+});
 
 const INITIAL_COLOR = "#b4a078";
 
