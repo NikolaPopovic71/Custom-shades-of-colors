@@ -193,7 +193,11 @@ div.variables-block {
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 490px) {
+  body {
+    margin: auto .5rem;
+    scroll-snap-type: y mandatory;
+  }
   .letter {
     font-size: 3rem;
   }
