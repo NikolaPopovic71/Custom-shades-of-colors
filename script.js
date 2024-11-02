@@ -47,6 +47,11 @@ gsap.to(".block-right", 2, {
     const main = document.querySelector("main");
     main.style.opacity = 1;
     main.style.zIndex = 10; // Ensure main is above other elements
+
+    // Fix container height to prevent extra scroll
+    const container = document.querySelector('.container');
+    container.style.height = `${window.innerHeight}px`;
+    container.style.overflowY = 'hidden';
   }
 });
 
